@@ -26,7 +26,7 @@ function fib(n){
 
  function type(val){
  	 return Object.prototype.toString.call(val).slice(8,-1);
- 	 '[Object String]'
+ 	 // '[Object String]'
  }
 
 function stringify(obj){
