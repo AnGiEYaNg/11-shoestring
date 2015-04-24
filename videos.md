@@ -21,6 +21,7 @@
   
 * Selector.js
   - Lecture: https://www.youtube.com/watch?v=MW5ZecLx83s
+  - Review: https://www.youtube.com/watch?v=nflnW7jPgEE
 
 * Sorting
   - Lecture Part 1: http://youtu.be/yS7ssCWmOEY
