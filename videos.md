@@ -18,7 +18,6 @@
   - Data Structures Lecture: https://www.youtube.com/watch?v=YREfj4Quc1k
   - Data Structures Pt 1 Review & pt 2 lecture: https://www.youtube.com/watch?t=10&v=2KHC7piz1Sg
   - Hash Tables Review: https://www.youtube.com/watch?v=MVf7CK0pyGg
-  - 
   
 * Selector.js
   - Lecture: https://www.youtube.com/watch?v=MW5ZecLx83s
