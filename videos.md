@@ -25,3 +25,8 @@
 
 * Sorting
   - Lecture Part 1: http://youtu.be/yS7ssCWmOEY
+  - Review: https://www.youtube.com/watch?v=g3sTHNX4mT8
+
+* Game of Life
+  - "Lecture": https://www.youtube.com/watch?v=tOqcjglV49k
+  - Review: https://www.youtube.com/watch?v=eQVhWSrFUb0
