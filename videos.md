@@ -34,3 +34,7 @@
 * Introduction to Node / File Watcher
   - Lecture Part 1: https://youtu.be/doK9AglOLPA
   - Lecture Part 2: https://youtu.be/T8gTmLMcCFM
+  - Review: https://www.youtube.com/watch?v=8kff7WF0qTA
+
+* Introduction to Express / Twitter.js
+  - Lecture: https://www.youtube.com/watch?v=qz3DLog36aI
