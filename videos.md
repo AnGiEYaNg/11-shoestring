@@ -30,3 +30,7 @@
 * Game of Life
   - "Lecture": https://www.youtube.com/watch?v=tOqcjglV49k
   - Review: https://www.youtube.com/watch?v=eQVhWSrFUb0
+
+* Introduction to Node / File Watcher
+  - Lecture Part 1: https://youtu.be/doK9AglOLPA
+  - Lecture Part 2: https://youtu.be/T8gTmLMcCFM
