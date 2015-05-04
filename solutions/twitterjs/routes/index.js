@@ -1,54 +1,50 @@
-var express = require('express');
-var router = express.Router();
-// could use one line instead: var router = require('express').Router();
+var router = require('express').Router();
+
 var tweetBank = require('../tweetBank');
 
-router.get('/', function (req, res) {
-    var tweets = tweetBank.list();
-    res.render( 'index', { title: 'Twitter.js', tweets: tweets } );
-});
+function routes (io) {
+	router.get('/', function (req, res) {
+		// send the index.html
+		var allTweets = tweetBank.list();
+		res.render('index', {
+			title: 'Twitter.js - all tweets',
+			showForm: true,
+			tweets: allTweets
+		});
+	});
 
-router.get('/users/:name', function (req, res) {
+	router.get('/users/:name', function (req, res) {
+		var userName = req.params.name,
+			userTweets = tweetBank.find({name: userName});
+		res.render('index', {
+			title: 'Posts by - ' + userName,
+			showForm: true,
+			tweets: userTweets
+		});
+	});
 
-    var usersName = req.params.name;
+	router.get('/users/:name/tweets/:id', function (req, res) {
+		var userName = req.params.name,
+			tweetId = parseInt(req.params.id),
+			userTweets = tweetBank.find({id: tweetId});
+		res.render('index', {
+			title: 'Tweet ' + tweetId + ' by ' + userName,
+			tweets: userTweets
+		});
+	});
 
-    var tweetsFromUser = tweetBank.find({ name: usersName });
+	router.post('/submit', function (req, res) {
+		var tweetName = req.body.name,
+			tweetText = req.body.text;
+		tweetBank.add(tweetName, tweetText);
+		var allTweets = tweetBank.list(),
+			newTweet = allTweets[allTweets.length - 1];
+		io.sockets.emit('new_tweet', newTweet);
+		res.redirect('/');
+	});
 
-    res.render('index', {
-        title: 'Twitter.js',
-        tweets: tweetsFromUser,
-        name: usersName,
-        showForm: true
-    });
+	return router;
+}
 
-});
 
-router.get('/users/:name/tweets/:id', function (req, res) {
-    // /users/Joe/tweets/1 {name: 'Joe', id:1}
-
-    var usersName = req.params.name;
-    var tweetId = parseInt(req.params.id);
-
-    var tweet = tweetBank.find({ name: usersName, id: tweetId });
-
-    res.render('index', {
-        title: 'Twitter.js',
-        tweets: tweet,
-        name: usersName,
-        showForm: true
-    });
-
-});
-
-router.post('/submit', function (req, res) {
-
-    var nameOfUser = req.body.name;
-    var tweetText = req.body.text;
-
-    tweetBank.add(nameOfUser, tweetText);
-
-    res.redirect('/users/' + nameOfUser);
-
-});
-
-module.exports = router;
+module.exports = routes;
