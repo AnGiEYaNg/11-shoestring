@@ -38,3 +38,6 @@
 
 * Introduction to Express / Twitter.js
   - Lecture: https://www.youtube.com/watch?v=qz3DLog36aI
+ 
+* FQL
+- Review: https://www.youtube.com/watch?v=oMmLeWn7gfY
