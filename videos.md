@@ -41,3 +41,15 @@
  
 * FQL
   - Review: https://www.youtube.com/watch?v=oMmLeWn7gfY
+
+  
+* Twitter.sql
+  - Review: https://www.youtube.com/watch?v=N-Qf0wrsaBc
+
+* MongoDB
+  - Intro: https://www.youtube.com/watch?v=bYjXpiIcl84
+  - Wikistack Review Pt2 (first part failed to record): https://www.youtube.com/watch?v=kFBG6FWTgCA
+  - Wikistack Review from last cohort: https://www.youtube.com/watch?v=wLHzJrJASN0
+
+* Testing
+  - Intro: https://www.youtube.com/watch?v=IuzNYuXmLDM
