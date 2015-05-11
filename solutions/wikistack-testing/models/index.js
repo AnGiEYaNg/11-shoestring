@@ -31,6 +31,7 @@ pageSchema.statics.findByTag = function(tag, cb) {
 }
 
 pageSchema.methods.getSimilar = function(cb) {
+	// this.constructor === Page
 	this.constructor.find({
 		_id: { $ne: this._id },
 		tags: {
