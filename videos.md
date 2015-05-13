@@ -53,3 +53,11 @@
 
 * Testing
   - Intro: https://www.youtube.com/watch?v=IuzNYuXmLDM
+  - Review: https://www.youtube.com/watch?v=3wlG48AyeI8
+
+* CSS / Shoestring
+  - Lecture: https://www.youtube.com/watch?v=UBHnzTah8es
+  - Review: https://www.youtube.com/watch?v=PVswCQTQtNk
+
+* Responsive
+  - Lecture: https://www.youtube.com/watch?v=54Y7dK8p07s
