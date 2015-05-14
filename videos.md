@@ -38,3 +38,6 @@
 
 * Introduction to Express / Twitter.js
   - Lecture: https://www.youtube.com/watch?v=qz3DLog36aI
+
+* Trip Planner
+  - Static UI review & jQuery lecture: https://www.youtube.com/watch?v=uWeE7sUf8Qk
