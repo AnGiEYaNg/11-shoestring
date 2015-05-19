@@ -65,3 +65,5 @@
 * Trip Planner
   - Static UI & jQuery Lecture: https://www.youtube.com/watch?v=uWeE7sUf8Qk
   - Live ui finished: https://www.youtube.com/watch?v=XCGk5pLbiBs
+  - Ajax Lecture: https://www.youtube.com/watch?v=HJit-bXJpdQ
+  - Persistence Review: https://www.youtube.com/watch?v=RaGkGkZEzFA
