@@ -41,7 +41,6 @@
  
 * FQL
   - Review: https://www.youtube.com/watch?v=oMmLeWn7gfY
-
   
 * Twitter.sql
   - Review: https://www.youtube.com/watch?v=N-Qf0wrsaBc
@@ -67,3 +66,6 @@
   - Live ui finished: https://www.youtube.com/watch?v=XCGk5pLbiBs
   - Ajax Lecture: https://www.youtube.com/watch?v=HJit-bXJpdQ
   - Persistence Review: https://www.youtube.com/watch?v=RaGkGkZEzFA
+
+* Promises
+  - Lecture: https://www.youtube.com/watch?v=vATANIeS12c
