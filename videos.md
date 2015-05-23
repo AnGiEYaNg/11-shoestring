@@ -69,3 +69,7 @@
 
 * Promises
   - Lecture: https://www.youtube.com/watch?v=vATANIeS12c
+
+* Angular
+
+  - Day 2 Lecture: https://www.youtube.com/watch?v=ovPcW1gG2Zw&index=3&list=WL
