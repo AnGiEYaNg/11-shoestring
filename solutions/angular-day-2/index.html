@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flash Cards</title>
+        <!-- We've provided some styles for you, aren't we nice? -->
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body ng-app="flashCards" >
+
+        <div ng-controller="ScoreController">
+            Correct: {{ score.correct }}
+            Incorrect: {{ score.incorrect }}
+        </div>
+
+        <div ng-controller="MainController">
+            <div id="category-buttons">
+                <button 
+                  ng-repeat="category in categories"
+                  ng-click="switchCategory(category)">
+                    {{ category }}
+                </button>
+                <button ng-click="reset()">
+                    Reset
+                </button>
+            </div>
+
+        	<div
+        		ng-repeat="flashCard in flashCards | orderBy : 'question'"
+        		class="flash-card">
+        	    <h1>{{ flashCard.question | uppercase }}</h1>
+        	    <ul class="flash-card-answers">
+        	    	<li
+        	    		ng-repeat="answer in flashCard.answers"
+        	    		class="flash-card-answer"
+        	    		ng-click="answerQuestion(answer, flashCard)">{{ answer.text }}</li>
+        	    </ul>
+        	    <h2
+        	    	class="answer-feedback"
+        	    	ng-class="flashCard.answeredCorrectly ? 'correct' : 'incorrect'"
+        	    	ng-show="flashCard.answered">
+        	        <span ng-show="flashCard.answeredCorrectly">Yeah, you got it right!</span>
+        	        <span ng-show="!flashCard.answeredCorrectly">Nope, you got it wrong.</span>
+        	    </h2>
+        	</div>
+        </div>
+    	<script src="angular.js"></script>
+    	<script src="app.js"></script>
+        <script src="main.controller.js"></script>
+        <script src="factories/cards.factory.js"></script>
+        <script src="factories/score.factory.js"></script>
+    	<script src="controllers/score.controller.js"></script>
+    </body>
+</html>
