@@ -72,5 +72,7 @@
 
 * Angular
 
-  - Day 2 Lecture: https://www.youtube.com/watch?v=ovPcW1gG2Zw&index=3&list=WL
+  - Day 2 Lecture: https://www.youtube.com/watch?v=ovPcW1gG2Zw
   - Day 2 Review: https://www.youtube.com/watch?v=Na5jsVuUnNI
+  - Day 3 Lecture: https://www.youtube.com/watch?v=vlXSWz3Vroo
+  - Day 3 Review: https://www.youtube.com/watch?v=I5_VvKFFOxY
