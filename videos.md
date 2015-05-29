@@ -80,3 +80,4 @@
 * Auth
 
  - Intro & HTTPS Lectures: http://youtu.be/Ysm8zH1r-HI
+ - HTTPS Review & Secure Storage Lecture: http://youtu.be/i4yoGjL-W8E
