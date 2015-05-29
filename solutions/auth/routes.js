@@ -22,9 +22,10 @@ router.get('/login', function (req, res) {
 });
 
 router.post('/login', function (req, res, next) {
-	User.findOne(req.body, function (err, user) {
+	User.findOne({username: req.body.username}, function (err, user) {
 		if (err) next(err);
 		else if (!user) res.redirect('/failure');
+		else if (!user.authenticate(req.body.password)) res.redirect('/failure');
 		else res.redirect('/success');
 	});
 });
