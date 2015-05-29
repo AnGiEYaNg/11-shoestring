@@ -3,7 +3,8 @@ var express = require('express'),
 	logger = require('morgan'),
 	bodyParser = require('body-parser'),
 	fs = require('fs'),
-	https = require('https');
+	https = require('https'),
+	session = require('express-session');
 
 var app = express();
 
@@ -15,6 +16,15 @@ swig.setDefaults({cache: false});
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
+
+app.use(session({
+	secret: 'tongiscool',
+	saveUninitialized: false,
+	resave: false,
+	cookie: {
+		secure: true
+	}
+}));
 
 app.use(require('./routes'));
 

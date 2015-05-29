@@ -13,7 +13,10 @@ router.get('/signup', function (req, res) {
 router.post('/signup', function (req, res, next) {
 	User.create(req.body, function (err, user) {
 		if (err) next(err);
-		else res.redirect('/success');
+		else {
+			req.session.userId = user._id;
+			res.redirect('/success');
+		}
 	});
 });
 
@@ -26,11 +29,24 @@ router.post('/login', function (req, res, next) {
 		if (err) next(err);
 		else if (!user) res.redirect('/failure');
 		else if (!user.authenticate(req.body.password)) res.redirect('/failure');
-		else res.redirect('/success');
+		else {
+			req.session.userId = user._id;
+			res.redirect('/success');
+		}
 	});
 });
 
-router.get('/membersOnly', function (req, res, next) {
+router.get('/logout', function (req, res, next) {
+	delete req.session.userId;
+	res.redirect('/');
+});
+
+function isAuthenticated (req, res, next) {
+	if (req.session.userId) next();
+	else res.redirect('/failure');
+}
+
+router.get('/membersOnly', isAuthenticated, function (req, res, next) {
 	res.render('secret');
 });
 
