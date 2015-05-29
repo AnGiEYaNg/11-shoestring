@@ -82,3 +82,4 @@
  - Intro & HTTPS Lectures: http://youtu.be/Ysm8zH1r-HI
  - HTTPS Review & Secure Storage Lecture: http://youtu.be/i4yoGjL-W8E
  - Secure Storage Review & Sessions Lecture: http://youtu.be/Z0bsmdasFks
+ - Session Review & OAuth Lecture: http://youtu.be/sVh1GFVdRFA
