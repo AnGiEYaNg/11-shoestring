@@ -76,3 +76,7 @@
   - Day 2 Review: https://www.youtube.com/watch?v=Na5jsVuUnNI
   - Day 3 Lecture: https://www.youtube.com/watch?v=vlXSWz3Vroo
   - Day 3 Review: https://www.youtube.com/watch?v=I5_VvKFFOxY
+
+* Auth
+
+ - Intro & HTTPS Lectures: http://youtu.be/Ysm8zH1r-HI
