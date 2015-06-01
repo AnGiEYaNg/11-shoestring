@@ -65,6 +65,7 @@
   - Static UI & jQuery Lecture: https://www.youtube.com/watch?v=uWeE7sUf8Qk
   - Live ui finished: https://www.youtube.com/watch?v=XCGk5pLbiBs
   - Ajax Lecture: https://www.youtube.com/watch?v=HJit-bXJpdQ
+  - 1501's Ajax lecture (The sound doesn't work above!): https://www.youtube.com/watch?v=38o35IFyajQ&feature=youtu.be
   - Persistence Review: https://www.youtube.com/watch?v=RaGkGkZEzFA
 
 * Promises
