@@ -90,3 +90,4 @@
  - HTTPS Review & Secure Storage Lecture: http://youtu.be/i4yoGjL-W8E
  - Secure Storage Review & Sessions Lecture: http://youtu.be/Z0bsmdasFks
  - Session Review & OAuth Lecture: http://youtu.be/sVh1GFVdRFA
+ - OAuth & Passport Review: http://youtu.be/ISG0K7JsEW0
