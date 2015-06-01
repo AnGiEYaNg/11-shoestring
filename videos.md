@@ -73,10 +73,16 @@
 
 * Angular
 
+  - Day 1 Lecture: https://www.youtube.com/watch?v=ITq3lboO9_U
+  - Day 1 Review: https://www.youtube.com/watch?v=x5SLmaVVpwM
   - Day 2 Lecture: https://www.youtube.com/watch?v=ovPcW1gG2Zw
   - Day 2 Review: https://www.youtube.com/watch?v=Na5jsVuUnNI
   - Day 3 Lecture: https://www.youtube.com/watch?v=vlXSWz3Vroo
   - Day 3 Review: https://www.youtube.com/watch?v=I5_VvKFFOxY
+  - Day 4 Lecture: https://www.youtube.com/watch?v=eiyfus4PPNQ
+  - Day 4 Review: https://www.youtube.com/watch?v=n1Idqo0oozA
+  - Day 5 Lecture: https://www.youtube.com/watch?v=6qJodejldZs
+  - Day 5 Review: https://www.youtube.com/watch?v=mDeGvyQ333Q
 
 * Auth
 
