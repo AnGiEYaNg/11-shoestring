@@ -30,19 +30,21 @@ router.post('/login', function (req, res, next) {
 		else if (!user) res.redirect('/failure');
 		else if (!user.authenticate(req.body.password)) res.redirect('/failure');
 		else {
-			req.session.userId = user._id;
-			res.redirect('/success');
+			req.login(user, function (err) {
+				if (err) next(err);
+				else res.redirect('/success');
+			});
 		}
 	});
 });
 
 router.get('/logout', function (req, res, next) {
-	delete req.session.userId;
+	req.logout();
 	res.redirect('/');
 });
 
 function isAuthenticated (req, res, next) {
-	if (req.session.userId) next();
+	if (req.user) next();
 	else res.redirect('/failure');
 }
 

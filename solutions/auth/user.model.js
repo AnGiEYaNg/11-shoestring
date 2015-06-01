@@ -9,6 +9,12 @@ var userSchema = mongoose.Schema({
 	salt: {
 		type: String,
 		default: makeSalt
+	},
+	facebook: {
+		id: String,
+		token: String,
+		email: String,
+		name: String
 	}
 });
 

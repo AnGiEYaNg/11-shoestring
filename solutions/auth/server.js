@@ -4,7 +4,8 @@ var express = require('express'),
 	bodyParser = require('body-parser'),
 	fs = require('fs'),
 	https = require('https'),
-	session = require('express-session');
+	session = require('express-session'),
+	passport = require('passport');
 
 var app = express();
 
@@ -25,6 +26,11 @@ app.use(session({
 		secure: true
 	}
 }));
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+app.use('/auth', require('./oauth'));
 
 app.use(require('./routes'));
 
