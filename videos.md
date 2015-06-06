@@ -65,6 +65,7 @@
   - Static UI & jQuery Lecture: https://www.youtube.com/watch?v=uWeE7sUf8Qk
   - Live ui finished: https://www.youtube.com/watch?v=XCGk5pLbiBs
   - Ajax Lecture: https://www.youtube.com/watch?v=HJit-bXJpdQ
+  - 1501's Ajax lecture (The sound doesn't work above!): https://www.youtube.com/watch?v=38o35IFyajQ&feature=youtu.be
   - Persistence Review: https://www.youtube.com/watch?v=RaGkGkZEzFA
 
 * Promises
@@ -72,7 +73,21 @@
 
 * Angular
 
+  - Day 1 Lecture: https://www.youtube.com/watch?v=ITq3lboO9_U
+  - Day 1 Review: https://www.youtube.com/watch?v=x5SLmaVVpwM
   - Day 2 Lecture: https://www.youtube.com/watch?v=ovPcW1gG2Zw
   - Day 2 Review: https://www.youtube.com/watch?v=Na5jsVuUnNI
   - Day 3 Lecture: https://www.youtube.com/watch?v=vlXSWz3Vroo
   - Day 3 Review: https://www.youtube.com/watch?v=I5_VvKFFOxY
+  - Day 4 Lecture: https://www.youtube.com/watch?v=eiyfus4PPNQ
+  - Day 4 Review: https://www.youtube.com/watch?v=n1Idqo0oozA
+  - Day 5 Lecture: https://www.youtube.com/watch?v=6qJodejldZs
+  - Day 5 Review: https://www.youtube.com/watch?v=mDeGvyQ333Q
+
+* Auth
+
+ - Intro & HTTPS Lectures: http://youtu.be/Ysm8zH1r-HI
+ - HTTPS Review & Secure Storage Lecture: http://youtu.be/i4yoGjL-W8E
+ - Secure Storage Review & Sessions Lecture: http://youtu.be/Z0bsmdasFks
+ - Session Review & OAuth Lecture: http://youtu.be/sVh1GFVdRFA
+ - OAuth & Passport Review: http://youtu.be/ISG0K7JsEW0
